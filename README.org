@@ -1,0 +1,7 @@
+* Jawtli
+
+When developing services locally, it's nice to be able to have direct
+control over the shape of the JWT. This library provides the
+functionality to be able to define the payload of your JWT and does
+the rest of the required bits to make it a valid JWT that can be
+cryptographically verified.
