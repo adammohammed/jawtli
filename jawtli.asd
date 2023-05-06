@@ -7,7 +7,10 @@
                "str")
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "main")
+		 (:file "keys")
+		 (:file "encoding")
+		 (:file "webui"))))
   :description "A JWT building library"
   :in-order-to ((test-op (test-op "jawtli/tests"))))
 
